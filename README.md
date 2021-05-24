@@ -88,7 +88,7 @@ python3 dorksnight.py -key  "site gov"  -query "inurl adminlogin"
 python3 dorksnight.py -dorkinglist
  ```
  
- ![SecScraper Demo](https://1.bp.blogspot.com/-noXyUMD5Mkw/YKtP3MJxgVI/AAAAAAABAlQ/OoS_qwQxJwQje7mOx1vx3rIY_wvVfqcjACLcBGAsYHQ/s579/dorksnight.gif)
+ ![SecScraper Demo](https://1.bp.blogspot.com/-yaCFnGAgXws/YKtThiiwCXI/AAAAAAABAlo/lp40zf76CRo5urxytHi3vJwxkHoMgJOtwCLcBGAsYHQ/s942/dorksnight.gif)
  
  
 ## Disclaimer:
