@@ -1,6 +1,6 @@
 # DorksNight
 
-DorksNight search deeply and gain result for bug bounty hunters and penetration tester.
+DorksNight search deeply and gain result for bug bounty hunters and penetration testers.
 
 Dorking is techniquie which is used to learn search techniques and for deeply search results and for all those who do bug hunting, penetration testing and involved with cyber security.
 
