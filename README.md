@@ -97,3 +97,6 @@ This tool is only for educational purpose and nor we promoting it wrongly. our i
  
  
 Please report functionality issues and bugs if found.
+
+ ## License
+[GNU GPLv3](https://github.com/whoiskumaratul/DorksNight/blob/main/LICENSE)
