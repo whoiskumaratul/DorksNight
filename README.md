@@ -34,7 +34,7 @@ Dorking is techniquie which is used to learn search techniques and for deeply se
 <br>🎭 https://twitter.com/Aniket3991
 <br>🎭 https://www.linkedin.com/in/aniket-mishra-932408187/
 
- 
+
  ## Usage
 
 You need to have Python version 3.4+
@@ -55,6 +55,11 @@ pip3 install -r requirements.txt
 ```bash
 dorksnight.py -key KEYWORDTYPE -query QUERYTYPE
  ```
+ 
+ 
+ ![SecScraper Demo]( https://1.bp.blogspot.com/-76svqLZctvE/YKtRRcgFDiI/AAAAAAABAlY/vnCVS3SqcXg3fipyMF1Zfz1RdmRRT0JsQCLcBGAsYHQ/s938/dorksnight-2.gif)
+ 
+ 
 Type: The platform where the content needs to be searched
 
 All options for available now:
@@ -77,6 +82,9 @@ python3 dorksnight.py -key  "site gov"  -query "inurl adminlogin"
  ```bash
 python3 dorksnight.py -dorkinglist
  ```
+ 
+ ![SecScraper Demo](https://1.bp.blogspot.com/-noXyUMD5Mkw/YKtP3MJxgVI/AAAAAAABAlQ/OoS_qwQxJwQje7mOx1vx3rIY_wvVfqcjACLcBGAsYHQ/s579/dorksnight.gif)
+ 
  
 ## Disclaimer:
 This tool is only for educational purpose and nor we promoting it wrongly. our intention is that all the content via tool which is knowledge should reach you (For DEEPLY) and  through this tool, people can increase their knowledge and help others in bug bounty, penetration and cyber security. If someone misuse it so it will be your responsibility then we are not responsible for it. 
