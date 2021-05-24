@@ -73,9 +73,14 @@ python3 dorksnight.py -key  "site gov"  -query "inurl adminlogin"
  
 ```
  
- ## For seeing dorking list:
+## For seeing dorking list:
  ```bash
 python3 dorksnight.py -dorkinglist
  ```
+ 
+## Disclaimer:
+This tool is only for educational purpose and nor we promoting it wrongly. our intention is that all the content via tool which is knowledge should reach you (For DEEPLY) and  through this tool, people can increase their knowledge and help others in bug bounty, penetration and cyber security. If someone misuse it so it will be your responsibility then we are not responsible for it. 
+ 
+ 
  
 Please report functionality issues and bugs if found.
