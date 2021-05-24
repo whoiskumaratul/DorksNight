@@ -1,0 +1,5 @@
+argparse == 1.4.0 
+colorama == 0.4.4
+bs4
+requests
+
