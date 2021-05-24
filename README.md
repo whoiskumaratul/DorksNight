@@ -67,6 +67,11 @@ All options for available now:
 Query: The string to search, for e.g., "upload size parent directory,  "admin password txt" "site nasa.gov", etc.
 
 Output: Save the scan results in the specified file
+ 
+![SecScraper Demo](https://1.bp.blogspot.com/-J3tn9abQY3U/YKtSsqwFouI/AAAAAAABAlg/zR1F3EFSOPsVYcFLFVYXOW9oKShdEhvawCLcBGAsYHQ/s938/dorksnight-hackingtruth.in.gif)
+ 
+ 
+ 
 
 Examples: 
 ```bash
