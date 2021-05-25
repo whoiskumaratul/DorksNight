@@ -7,7 +7,7 @@ Dorking is techniquie which is used to learn search techniques and for deeply se
 <br>
 <br>🎭 <b>Project              - DorksNight
 <br>🎭 <b>Created by           - Kumar Atul Jaiswal 🤝 Aniket Mishra
-<br>🎭 <b>Date                 - 8/5/2021
+<br>🎭 <b>Date                 - 19/5/2021
 <br>🎭 <b>Programming Language - Python3
 <br>
 <br>🌐 website              - https://www.hackingtruth.in
