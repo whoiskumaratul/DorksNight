@@ -57,7 +57,7 @@ def filter(link):
 def create_url(query):       #q=site:yahoo.com
     global url                         #python3 dork.py -key  yahoo.com site site -count 10
     url = "https://google.com/search?q="+urllib.parse.quote(keyword)+":"+urllib.parse.quote(query)
-    #print(url)
+    
 
 def do_keyword():
     create_url(query)
