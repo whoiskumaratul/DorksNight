@@ -115,10 +115,15 @@ def do_keyword():
             pass        
         
 
-parser = argparse.ArgumentParser(description='Dorking is techniquie which is used to learn search techniques and for deeply search results and for all those who do bug hunting, penetration testing and involved with cyber security. .', prog='python3 dorknight.py -key intitle or "index of /" -query "hacking truth" or  "admin password txt" ', usage='%(prog)s [options]' )
+parser = argparse.ArgumentParser(description='Dorking is techniquie which is used to learn search techniques and for deeply search ' + 
+	'results and for all those who do bug hunting, penetration testing and involved with cyber security. .',
+	 prog='python3 dorknight.py -key intitle or "index of /" -query "hacking truth" or  "admin password txt" ',
+	  usage='%(prog)s [options]' )
 
 parser.add_argument('-key',action='store', dest='keyword', help='-key "index of /"')
-parser.add_argument('-query', action='store', dest='query', help='-query "admin password txt" use double or single quotes if it is more than one word') 
+parser.add_argument('-query', action='store', dest='query', help='-query "admin password txt" use double or single quotes ' + 
+	'if it is more than one word')
+
 parser.add_argument('-dorkinglist', action='store_true', dest='dorkinglist', help='See the dorking list')
 
 given_args = parser.parse_args()
@@ -158,7 +163,7 @@ if given_args.dorkinglist:
    print(dorking)
    exit(0)
 
-do_keyword()
-
-
-    
+if len(sys.argv) > 1:
+	do_keyword()
+else:
+	parser.print_usage()
