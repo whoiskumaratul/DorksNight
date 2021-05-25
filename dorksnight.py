@@ -60,6 +60,8 @@ def create_url(query):       #q=site:yahoo.com
     
 
 def do_keyword():
+    l0g = ""
+    file_data = ""
     create_url(query)
     print("[🇮🇳] findinG websitE oN googlE...")
     time.sleep(1)
@@ -76,22 +78,20 @@ def do_keyword():
     print("[🇮🇳] congratS wE founD iT.")
     try:
         saver = input("[🇮🇳] Do yoU wanT tO savE thiS datA iN a filE? (Y/N) ".strip())
-        l0g = ("")
+
     except KeyboardInterrupt:
         print("\n")
         print("[🇮🇳]useR interruptioN detectioN")
         time.sleep(0.4)
 
     def logger(saver):
-        file = open((l0g) + ".txt", "a")
-        file.write("\n")
+        file = open((l0g) + ".txt", "w")
         file.write(str(saver))
         file.close()      
 
     if saver.startswith("y" or "Y"):
         l0g = input("[🇮🇳] pleasE givE thE filE namE (only name): ")
-        #print("\n")
-        #logger(saver)
+
     else:
         print("[🇮🇳] SavinG is skippeD")
         time.sleep(0.4)
@@ -105,14 +105,13 @@ def do_keyword():
                 star = (aHref.text)
                 print(Fore.LIGHTYELLOW_EX ,'[🎭]', star, Fore.RED , end=' »»»» ')
                 print(Fore.LIGHTGREEN_EX + filter(link))
-                a = '[🎭]', filter(star)
-                b = filter(link)
-                data = (a ,b)
-                logger(data)
+                file_data += '[🎭]' + star + '   >>>   '+ filter(link) + '\n\n'
                 
-
         except:
-            pass        
+            pass
+
+    if l0g != "":
+    	logger(file_data)   
         
 
 parser = argparse.ArgumentParser(description='Dorking is techniquie which is used to learn search techniques and for deeply search results and for all those who do bug hunting, penetration testing and involved with cyber security. .', prog='python3 dorknight.py -key intitle or "index of /" -query "hacking truth" or  "admin password txt" ', usage='%(prog)s [options]' )
@@ -158,7 +157,7 @@ if given_args.dorkinglist:
    print(dorking)
    exit(0)
 
-do_keyword()
-
-
-    
+if len(sys.argv) > 1:
+	do_keyword()
+else:
+	parser.print_usage()
