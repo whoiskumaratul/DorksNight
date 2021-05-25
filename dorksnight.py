@@ -107,8 +107,7 @@ def do_keyword():
                 print(Fore.LIGHTGREEN_EX + filter(link))
                 a = '[🎭]', filter(star)
                 b = filter(link)
-                data = (a ,b)
-                logger(data)
+                logger(a, b)
                 
 
         except:
